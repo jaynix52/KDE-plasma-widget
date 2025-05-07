@@ -14,19 +14,18 @@ Move these files with these names in your home directory:
     │       └── main.xml
     └── metadata.desktop
 ```
-    
-Create the directories:
 
-```mkdir -p ~/.local/share/plasma/plasmoids/KDE-plasma-widget.minimalmonitor/contents/{ui,config}```
-  Create each file using text editor kate,nano or vim and copy contents metadata.desktop, main.xml, ui from main.qml and make save
+Enter termainal go to directory by typing ```bash cd /home/user/.local/share/plasma/plasmoids/```
+then when you're inside the directory enter ```bash git clone https://github.com/jaynix52/KDE-plasma-widget``` 
+to download the widget and then restart plasma 
 
 Next make it active using ```kbuildsycoca6 && systemctl --user restart plasma-plasmashell.service```
 
 Now Add to your desktop/Panel 
-    Right-click desktop/panel → "Add Widgets"
-    Find "Minimal Monitor" in the list
+   - Right-click desktop/panel → "Add Widgets"
+   - Find "Minimal Monitor" in the list
     
 This creates a widget that shows:
 
-   Panel view: Just a system monitor icon
-   Expanded view: Simple "Minimal Monitor" text
+ -  Panel view: Just a system monitor icon
+ -  Expanded view: Simple "Minimal Monitor" text
