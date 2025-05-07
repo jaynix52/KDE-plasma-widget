@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Minimal Monitor
+Comment=System monitor widget
+Icon=utilities-system-monitor
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+X-KDE-PluginInfo-Name=minimal-monitor
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
