@@ -1,0 +1,9 @@
+{
+    "KPlugin": {
+        "Id": "minimal-monitor",
+        "Name": "Minimal Monitor",
+        "Version": "1.0",
+        "Website": "https://github.com/yourname/minimal-monitor",
+        "EnabledByDefault": true
+    }
+}
