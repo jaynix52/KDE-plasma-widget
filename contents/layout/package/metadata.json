@@ -1,9 +1,12 @@
 {
+    "KPackageStructure": "Plasma/Applet",
     "KPlugin": {
-        "Id": "minimal-monitor",
+        "Id": "org.kde.minimal_monitor",
         "Name": "Minimal Monitor",
         "Version": "1.0",
-        "Website": "https://github.com/yourname/minimal-monitor",
+        "Description": "Minimal system monitor for Plasma 6",
+        "License": "GPLv3",
+        "Website": "https://github.com/yourname/plasma6-minimal-monitor",
         "EnabledByDefault": true
     }
 }
