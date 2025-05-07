@@ -1,1 +1,40 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile arg="true" name="minimal-monitorrc"/>
+    <group name="General">
+        <entry name="refreshInterval" type="Int">
+            <label>Update interval (ms)</label>
+            <default>2000</default>
+            <min>500</min>
+            <max>10000</max>
+        </entry>
+        <entry name="showGpu" type="Bool">
+            <label>Show GPU information</label>
+            <default>true</default>
+        </entry>
+        <entry name="warningTemp" type="Int">
+            <label>Temperature warning threshold (°C)</label>
+            <default>75</default>
+            <min>50</min>
+            <max>100</max>
+        </entry>
+    </group>
+    <group name="Appearance">
+        <entry name="compactView" type="Bool">
+            <label>Use compact panel view</label>
+            <default>true</default>
+        </entry>
+        <entry name="progressBarStyle" type="String">
+            <label>Progress bar style</label>
+            <default>Plasma</default>
+            <choices>
+                <choice name="Plasma"/>
+                <choice name="Material"/>
+                <choice name="Simple"/>
+            </choices>
+        </entry>
+    </group>
+</kcfg>
