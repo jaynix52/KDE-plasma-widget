@@ -12,11 +12,3 @@ Item {
     }
 }
 
-<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0">
-    <kcfgfile name=""/>
-    <group name="General">
-        <entry name="refreshRate" type="Int">
-            <default>2000</default>
-        </entry>
-    </group>
-</kcfg>
