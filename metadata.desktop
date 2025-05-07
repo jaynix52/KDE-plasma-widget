@@ -9,3 +9,5 @@ X-KDE-PluginInfo-Category=System Information
 X-Plasma-API=declarativeappletscript
 X-Plasma-MainScript=ui/main.qml
 X-Plasma-NotificationArea=true
+X-Plasma-Minimum-Version=6.0
+X-Plasma-Provided-PackageMetadata=KPackage/Structure
