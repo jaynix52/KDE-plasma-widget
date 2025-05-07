@@ -20,7 +20,7 @@ Create the directories:
 ```mkdir -p ~/.local/share/plasma/plasmoids/KDE-plasma-widget.minimalmonitor/contents/{ui,config}```
   Create each file using text editor kate,nano or vim and copy contents metadata.desktop, main.xml, ui from main.qml and make save
 
-Next make it active using ```kbuildsycoca5 && kquitapp5 plasmashell && kstart5 plasmashell```
+Next make it active using ```kbuildsycoca6 && systemctl --user restart plasma-plasmashell.service```
 
 Now Add to your desktop/Panel 
     Right-click desktop/panel → "Add Widgets"
