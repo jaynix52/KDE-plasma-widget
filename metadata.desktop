@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Minimal Monitor
-Comment=Lightweight system resource monitor
+Comment=System resource monitor for Plasma 6
 Icon=utilities-system-monitor
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet
@@ -10,4 +10,4 @@ X-Plasma-API=declarativeappletscript
 X-Plasma-MainScript=ui/main.qml
 X-Plasma-NotificationArea=true
 X-Plasma-Minimum-Version=6.0
-X-Plasma-Provided-PackageMetadata=KPackage/Structure
+X-KDE-ParentApp=org.kde.plasmashell
