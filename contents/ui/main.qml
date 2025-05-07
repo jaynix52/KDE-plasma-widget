@@ -61,7 +61,14 @@ Item {
                 font.pointSize: 9
             }
         }
-        
+        // For temperature (requires lm_sensors)
+    PlasmaCore.DataSource {
+                id: tempSource
+                    engine: "systemmonitor"
+                    interval: 5000
+                    connectedSources: ["temp/core0/input"]
+            onNewData: tempValue = Math.round(data.value)
+}
         // Add more metrics as needed...
     }
     
