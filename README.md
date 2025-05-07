@@ -1,2 +1,2 @@
 # KDE-plasma-widget
-minimal KDE plasma widget for arch linux 
+minimal system monitor for KDE plasma widget | arch linux 
