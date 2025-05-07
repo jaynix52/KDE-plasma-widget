@@ -3,6 +3,8 @@ minimal system monitor for KDE plasma widget | arch linux
 
 Move these files with these names in your home directory:
 
+```bash
+
 ~/.local/share/plasma/plasmoids/
 └── KDE-plasma-widget.minimalmonitor/
     ├── contents/
@@ -11,6 +13,7 @@ Move these files with these names in your home directory:
     │   └── config/
     │       └── main.xml
     └── metadata.desktop
+```
     
 Create the directories:
 
